@@ -10,7 +10,12 @@ body {
 
 .container {
 	width: 100%;
-	height:2937.5px;	
+	height:3027.5px;	
+}
+
+a {
+	text-decoration: none;
+	color:#fcfcf5;
 }
 
 header {
@@ -80,7 +85,6 @@ header form .month {
 header form .submit {
 	width:210px;
 	height:40px;
-	
 	border-radius:5px;
 	color:white;
 	border: solid 1px #3a73ff;
@@ -89,6 +93,17 @@ header form .submit {
 	font-size:20px;
 	font-weight: bold;
 	margin: 5px 0px 10px 60px;
+}
+
+.divider {
+	background-image:url(../img/gplaypattern.png);
+	width: 100%;
+	height: 30px;
+	box-shadow: 0px 0px 5px black;
+}
+
+.divider-3, .divider-4 {
+	margin: 2px 0px;
 }
 
 .row2 {
@@ -150,30 +165,42 @@ header form .submit {
 	clear: both;
 }
 
-footer {
-	width:100%;
-	height:30px;
-	background-color: grey;
-}
 
 .image-chain {
 	position:fixed;
 	bottom: 0px;
-	right:15px;
+	left:0px;
 }
 
 ul {
+	padding: 5px 0 5px 0;
+	background-color: rgba(128, 128, 128, 0.45);
+	border-radius: 3px;
 	list-style:none;
 }
 
-li {
-	display:inline;
-}
-
 .image-chain li {
-	margin: 5px 0 0 5px;
+	margin: 5px 0 0 0;
+	display:inline;
 }
 
 i {
 	font-size: 25px;
+	color: #fcfcf5;
+}
+
+i:hover {
+	-webkit-transition: color 0.3s linear;
+}
+
+.icon-facebook:hover {
+	color: #3b5998;
+}
+
+.icon-twitter-bird:hover {
+	color:#4099ff;
+}
+
+.icon-vimeo:hover {
+	color: #4ebbff;
 }
